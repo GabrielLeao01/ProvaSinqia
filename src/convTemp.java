@@ -91,8 +91,7 @@ public class convTemp {
 			System.out.printf("Temperatura em %s            Temperatura em %s\n\n ",unidOrigem,unidFinal );
 			// laço para imprimir todas temperaturas
 			for(int i=0;i<tempFim.length;i++)
-			{
-						
+			{		
 				System.out.printf("%.2f            %.2f\n",tempIni[i],tempFim[i]);
 			}
 			
